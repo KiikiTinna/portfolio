@@ -711,7 +711,7 @@ section {
 }
 
 .project-item.active .project-details {
-    max-height: 1200px;
+    max-height: none;
     padding: 0 2rem 1.5rem 2rem;
 }
 
