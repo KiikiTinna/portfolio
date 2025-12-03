@@ -711,10 +711,19 @@ section {
 }
 
 .project-item.active .project-details {
-    max-height: 2000px;
+    max-height: 5000px;
     padding: 0 2rem 1.5rem 2rem;
 }
 
+.expand-icon {
+    color: var(--accent-color);
+    font-size: 1.2rem;
+    transition: transform 0.3s ease;
+}
+
+.project-item.active .expand-icon {
+    transform: rotate(180deg);
+}
 .project-details p {
     color: var(--text-color);
     line-height: 1.7;
