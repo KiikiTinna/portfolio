@@ -62,15 +62,6 @@ window.addEventListener('scroll', () => {
     }
 });
 
-// Observe all sections (skip hero section)
-document.querySelectorAll('section:not(#hero)').forEach(section => {
-    section.style.opacity = '0';
-    section.style.transform = 'translateY(20px)';
-    section.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
-    observer.observe(section);
-});
-
-
 // Toggle project details
 document.querySelectorAll('.project-header').forEach(header => {
     header.addEventListener('click', () => {
