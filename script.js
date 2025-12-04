@@ -67,5 +67,15 @@ document.querySelectorAll('.project-header').forEach(header => {
     header.addEventListener('click', () => {
         const projectItem = header.parentElement;
         projectItem.classList.toggle('active');
+        console.log('Project clicked, active:', projectItem.classList.contains('active'));
     });
 });
+
+console.log('Script loaded successfully');
+console.log('Found project headers:', document.querySelectorAll('.project-header').length);
+
+
+
+
+
+console.log('Found project headers:', document.querySelectorAll('.project-header').length);
