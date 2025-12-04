@@ -92,3 +92,4 @@ document.querySelectorAll('.project-header').forEach(header => {
         const projectItem = header.parentElement;
         projectItem.classList.toggle('active');
     });
+});
